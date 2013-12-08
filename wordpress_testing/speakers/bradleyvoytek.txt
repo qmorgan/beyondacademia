@@ -1,0 +1,4 @@
+Bradley Voytek
+Assistant Professor of Computational Cognitive Science and Neuroscience at UCSD
+bradleyvoytek.jpg
+Brad is an Assistant Professor of Computational Cognitive Science and Neuroscience at UCSD. He is also the Data Evangelist for the on-demand car service company, Uber, Inc. In his neuroscience life, Brad studies cognition and neural network communication using data-mining, lesion experiments, human intracranial recordings, brain-stimulation, brain-computer interfacing, and whatever other tools he can get his hands on. For Uber, Brad does exploratory data analytics and communicates the importance of data in driving Uber. He co-created the meta-analytic neuroscience research aggregation tool and hypothesis generation sitehttp://brainSCANr.com with his wife Jessica Bolger Voytek. He's an avid science teacher and outreach advocate and is the world's zombie brain expert (seriously).

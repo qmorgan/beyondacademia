@@ -1,0 +1,4 @@
+Jessica Kirkpatrick
+Director of data science for InstaEDU
+jessicakirkpatrick.jpg
+Jessica Kirkpatrick received her PhD in Astrophysics from Berkeley in 2012. After an exhaustive job search within academia and beyond, she accepted a job as a data scientist / analyst for the social network Yammer (acquired by Microsoft) and recently became the Director of Data Science for InstaEDU. Now instead of spending her days finding patterns in the large scale structure of galaxies, she finds patterns in the behaviors of people. She'll talk about her transition from astrophysics to tech, compare and contrast the two fields, and give tips about how to land a tech job.

@@ -1,0 +1,14 @@
+panel_name;panel_description
+Careers in Policy;Help translate research into real results by advocating improvements to healthcare, education, environmental policy, and more.
+Non-Academic Research (Psych/Neuro);Love research, but not sure the ivory tower is for you? Learn about research opportunities in think tanks, non-profits, and R&D. Speakers in this panel will have a neuroscience/psychology background.  
+Non-Academic Research (Biotech);Love research, but not sure the ivory tower is for you? Conduct research in the biotech industry, non-profits, and R&D. Speakers in this panel will have a bioengineering/biology background. 
+Communication;Think science is awesome? Share your love of science with general audiences through writing, editing, and outreach programs. 
+Education;Learn from PhDs who use their problem solving skills as secondary education teachers, to improve access to and efficacy of education through researching best practices, and creating curricula. 
+Scientific Consulting;Use your research knowledge and problem-solving skills to help clients solve science problems! 
+Management Consulting;Come learn about how PhDs can help companies improve their performance. 
+Startups;Learn about the exciting and fast-paced environment of start-up companies.
+Senior Science Management;PhDs with 10+ years of experience in industry who have transitioned to leadership or management positions. 
+Technology Industry;Discover opportunities in the technology industry such as user experience, marketing, and strategy.
+Data Analytics;Is big data your thing? Explore opportunities in data analytics and statistics.
+Entrepreneurs;Do you have the next big idea? Learn how these PhDs founded new companies.
+

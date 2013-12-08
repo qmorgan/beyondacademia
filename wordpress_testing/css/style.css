@@ -1,0 +1,180 @@
+/********************/
+/* GENERAL SETTINGS */
+/********************/
+body {
+    background-color: #AAAAAA;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Adding a margin to all images by default */
+img {
+    margin: 10px;
+}
+
+/********************/
+/* EXPANDABLE LIST  */
+/********************/
+#listContainer{
+  margin-top:15px;
+  font-size: 20px;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.0;
+/*  margin: 50px auto;
+  width: 200px auto;*/
+  cursor: pointer;
+  margin:0;
+  padding: 0;
+  
+/*  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.2);*/
+ 
+}
+
+#expList ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 15px;
+    /*line-height: 30px;*/
+    list-style-type: none;
+    overflow: hidden;
+    
+
+}
+
+#expList ul a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+  display: block;
+  width: 200px;
+  margin:0;
+  padding: 0;
+}
+#expList p {
+    margin:0;
+    display:block;
+}
+/*
+#expList p:hover {
+    color:#121212;
+}*/
+#expList li {
+    list-style: none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    line-height:130%;
+    text-indent:0px;
+    background-position: 1px 8px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+#explist ul day {
+    padding:5px;
+    border: 1px solid #555555;
+            -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+}
+    
+
+/*#expList li:hover {
+  color: black;
+}*/
+
+/*first Nested list */
+#expList li li
+{
+        list-style: none;
+        margin:0;
+        padding:0;
+        cursor: pointer;
+        /*line-height:110%;*/
+        text-indent:0px;
+        background-position: 1px 8px;
+        padding-left: 20px;
+        padding-right:20px;
+        background-repeat: no-repeat;
+        /*color: blue;*/
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background-color:#f4eee6;
+        font-size:110%;
+    }
+    
+/*second nested list */
+#expList li li li
+{
+        list-style: none;
+        margin:0;
+        margin-bottom:10px;
+        min-height: 120px; /*set minimum height of cell*/
+        padding:5px;
+        cursor: pointer;
+        /*line-height:110%;*/
+        text-align:justify;
+        text-indent:0px;
+        background-position: 1px 8px;
+        padding-left: 20px;
+        padding-right:20px;
+        background-repeat: no-repeat;
+        font-size: 100%;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background-color:#e2dcd5;
+        /*color: gray;*/
+    }
+
+
+
+/* Collapsed state for list element */
+#expList .collapsed {
+    background-image: url(../img/collapsed.png);
+}
+/* Expanded state for list element
+/* NOTE: This class must be located UNDER the collapsed one */
+#expList .expanded {
+    background-image: url(../img/expanded.png);
+}
+
+#expList {
+    clear: both;
+}
+
+.listControl{
+  text-align:left;
+  margin-left:60px;
+  margin-bottom: 15px;
+}
+.listControl a {
+    border: 1px solid #555555;
+    cursor: pointer;
+    height: 1.6em;
+    line-height: 1.6em;
+    margin-right: 5px;
+    padding: 4px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.listControl a:hover {
+    background-color:#ECE5DC;
+    color:#222222; 
+    font-weight:normal;
+}

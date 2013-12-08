@@ -1,0 +1,4 @@
+Jake Klamka
+Founder of Insight Data Science Fellows Program
+jakeklamka.jpg
+Jake Klamka is the founder of the Insight Data Science Fellows Program, a post-doctoral fellowship that helps quantitative PhDs transition from academia to careers in data science. Insight Fellows are now data scientists at top tech companies like Facebook, Google, LinkedIn, Twitter, Square and many others. Jake was an entrepreneur in the Y Combinator winter 2011 session and prior to that was a particle physicist at the University of Toronto, working on the Large Hadron Collider experiment. As a panel speaker at Beyond Academia 2013, Jake will provide an introduction to data science and share stories of scientists who have transitioned from academia to the tech industry.

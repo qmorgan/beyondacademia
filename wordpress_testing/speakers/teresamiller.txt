@@ -1,0 +1,4 @@
+Teresa Miller
+Medical robotics researcher at Optimedica
+teresamiller.jpg
+Teresa Miller, Ph.D., works on algorithms for medical robotics.  She currently is working to develop improvements in image processing and laser trajectories for a laser cataract system at Optimedica.  Before that she developed control algorithms for a robotic catheter at Hansen Medical.  Her Ph.D. research was to design an novel control algorithm for a rock climbing robot in the Aeronautics and Astronautics program at Stanford University.  She also holds a BSE from Princeton University in Mechanical and Aerospace Engineering.
