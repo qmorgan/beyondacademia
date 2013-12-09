@@ -1,13 +1,9 @@
 panel_name;panel_session;panel_speakers
-Careers in Policy;day1a;Dena Vallano, Ben Rubin
-Non-Academic Research (Psych/Neuro);day1a;Joe Hardy, Glen Morgan, Ingrid Nieuwenhuis 
-Non-Academic Research (Biotech);day1a;Patty Culp, Jacob Corn, Brian Simison, Teresa Miller
-Communication;day1b;Sandra Aamodt, Peter Binfield, Katja Brose, Julie Yu
-Education;day1b;Ron Kim, Cynthia D’Angelo, Joseph Williams, Kate Garrett
-Scientific Consulting;day1b;Craig Brozinsky, Albert Lang, Anna Urban
-Startups;day2a;Ken Greenberg, Andro Hsu, Melissa Fardy
-Senior Science Management;day2a;Kaaren Hanson, Adam Gazzaley, Alvaro Garcia Neto, Charles Jankowski
-Technology Industry;day2a;Maria Stone, Ellen Konar, Elizabeth Seiver
-Entrepreneurs;day2b;Ethan Perlstein, John Waldeisen, Bret Waters, Erica Warp
-Management Consulting;day2b;Nick Halpern-Manners, Kristin Talsky
-Data Analytics;day2b;Jake Klamka, Jacob Bollinger, Jessica Kirkpatrick, Berian James, Rehan Khan
+Science Policy & Communication;day1a;Sandra Aamodt, Ben Rubin, Katja Brose,Silvia Bunge
+Science Policy & Communication;day1b;Sandra Aamodt, Ben Rubin, Katja Brose,Michael Ranney
+Entrepreneurs;day1a;Jailza Pauly,Elizabeth Iorns, Keaton Swett, Vivienne Ming, Elizabeth Stone
+Consulting;day1a;Craig Brozinsky, Albert Lang, Nick Halpern-Manners, Laura Elias, Jake Dunagan
+Consulting;day1b;Craig Brozinsky, Albert Lang, Nick Halpern-Manners, Elizabeth Stone
+Non-Academic Research;day1b;Marty Nemko, Joe Hardy, Jodi Davenport, Cynthia D’Angelo, Michael Merzenich, Zoë Harris, Patty Culp
+Tech;day1a;Jake Klamka, Rehan Khan,Flavio Oliveira,Jacob Bollinger,Maria Stone, Arnold Lund
+Tech;day1b;Bradley Voytek, Jacob Bollinger,Maria Stone, Arnold Lund, Emi Nomura

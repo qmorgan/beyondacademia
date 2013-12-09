@@ -1,7 +1,9 @@
 time;event
-9:00 AM;Keynote: Peter Fiske
-10:00 AM;panel_a
-11:30 AM;Networking Lunch
-1:30 PM;panel_b
-3:00 PM;Workshops
-4:00 PM;Networking Reception
+9:00-10:00 AM;Registration & Refreshments
+10:00-10:05 AM;Welcome by Graduate Dean Andrew Szeri
+10:05-11:15 AM;Keynote: Marty Nemko
+11:30 AM-12:15 PM;panel_a
+12:15-2:00 PM;Networking Lunch
+2:00-2:45 PM;panel_b
+3:00-4:00 PM;Workshops
+4:00-6:00 PM;Networking Reception

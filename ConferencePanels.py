@@ -213,7 +213,7 @@ for confindex, conference in conference_df.iterrows():
         </body>
     </html>'''
 
-    f = file('wordpress_testing/panels.html','w')
+    f = file(current_conference_id+'/panels.html','w')
     f.write(html_block)
     f.close()
 
@@ -306,7 +306,7 @@ for confindex, conference in conference_df.iterrows():
         </body>
     </html>'''
 
-    f = file('wordpress_testing/schedule.html','w')
+    f = file(current_conference_id+'/schedule.html','w')
     f.write(html_block2)
     f.close()
 

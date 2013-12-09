@@ -1,9 +1,9 @@
 panel_name;panel_session;panel_speakers
-Careers in Policy;day1a;Dena Vallano, Ben Rubin
+Science and Social Policy;day1a;Dena Vallano, Ben Rubin
 Non-Academic Research (Psych/Neuro);day1a;Joe Hardy, Glen Morgan, Ingrid Nieuwenhuis 
 Non-Academic Research (Biotech);day1a;Patty Culp, Jacob Corn, Brian Simison, Teresa Miller
 Communication;day1b;Sandra Aamodt, Peter Binfield, Katja Brose, Julie Yu
-Education;day1b;Ron Kim, Cynthia D’Angelo, Joseph Williams, Kate Garrett
+Careers in Education;day1b;Ron Kim, Cynthia D’Angelo, Joseph Williams, Kate Garrett
 Scientific Consulting;day1b;Craig Brozinsky, Albert Lang, Anna Urban
 Startups;day2a;Ken Greenberg, Andro Hsu, Melissa Fardy
 Senior Science Management;day2a;Kaaren Hanson, Adam Gazzaley, Alvaro Garcia Neto, Charles Jankowski

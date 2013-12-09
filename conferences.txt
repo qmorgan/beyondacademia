@@ -1,2 +1,3 @@
 conference_id;start_date;duration;location
+2013berkeley;2013-03-22;1;berkeley
 2014berkeley;2014-02-20;2;berkeley
