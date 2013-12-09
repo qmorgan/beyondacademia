@@ -129,7 +129,7 @@ for confindex, conference in conference_df.iterrows():
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <title>Panels/Speakers</title>
-            <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection">
+            <link rel="stylesheet" href="../wordpress_testing/css/style.css" type="text/css" media="screen, projection">
             <script type="text/javascript" src="js/jquery-1.4.2.min.js">
             </script>
             <script type="text/javascript" src="js/scripts.js">
@@ -232,7 +232,7 @@ for confindex, conference in conference_df.iterrows():
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
             <title>Schedule</title>
-            <link rel="stylesheet" href="css/scheduletable.css" type="text/css" media="screen, projection">
+            <link rel="stylesheet" href="../wordpress_testing/css/scheduletable.css" type="text/css" media="screen, projection">
         </head>
         <body>        
     
@@ -253,6 +253,8 @@ for confindex, conference in conference_df.iterrows():
         <table class=tg-table-paper>
         '''.format(str_date)
         count = 1
+        max_colspan = 1 # keeping track of the total number of columns
+        
         for time, event in day_sched.iterrows():
             
             if count%2==0:
@@ -274,6 +276,8 @@ for confindex, conference in conference_df.iterrows():
                 matched_panels = current_panels[current_panels['panel_session'] == session]
                 
                 colspan = len(matched_panels)
+                if colspan > max_colspan:
+                    max_colspan = colspan
                 
                 html_block2 += '''
                 <tr{}>
@@ -289,13 +293,12 @@ for confindex, conference in conference_df.iterrows():
                 html_block2 += '''
                 </tr>
                 '''
-            #otherwise do a normal table row
-            # FIXME: Colspan is fixed at a length of 3.. may not be a choice of 3 panels forever
+            # Mark Colspan as unknown - replace with true number of columns later
             else:
                 html_block2 += '''
                 <tr{}>
                   <td class="width-fixed">{}</td>
-                  <td colspan="3" class="width-variable">{}</td>
+                  <td colspan="UNKNOWN" class="width-variable">{}</td>
                 </tr>
                 '''.format(evenclass,time,event.values[0])
             count += 1 
@@ -305,7 +308,9 @@ for confindex, conference in conference_df.iterrows():
     html_block2 += '''
         </body>
     </html>'''
-
+    
+    # replace the unknown colspan with the actual max colspan based on number of panels
+    html_block2=html_block2.replace('<td colspan="UNKNOWN"','<td colspan="{}"'.format(max_colspan))
     f = file(current_conference_id+'/schedule.html','w')
     f.write(html_block2)
     f.close()
@@ -322,7 +327,7 @@ html_media = '''
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Media</title>
-        <link rel="stylesheet" href="css/scheduletable.css" type="text/css" media="screen, projection">
+        <link rel="stylesheet" href="../wordpress_testing/css/scheduletable.css" type="text/css" media="screen, projection">
     </head>
     <body>
     <table class=tg-table-paper style="width:100%;text-align:left">
