@@ -77,13 +77,13 @@ import numpy
 # change this to a dataframe
 
 
-conference_path = '/Users/amorgan/Desktop/ExpandableMenuTest/conferences.txt'
+conference_path = 'conferences.txt'
 conference_df = pd.DataFrame.from_csv(conference_path,header=0, \
                         sep=';', index_col = 0, parse_dates = ['start_date'])
 
 
 
-panel_description_path = '/Users/amorgan/Desktop/ExpandableMenuTest/panel_descriptions.txt'
+panel_description_path = 'panel_descriptions.txt'
 panel_descriptions_df = pd.DataFrame.from_csv(panel_description_path, header=0, \
                         sep=';', index_col = 0, parse_dates = False)
 
@@ -92,7 +92,7 @@ for confindex, conference in conference_df.iterrows():
     start_date = conference['start_date']
     duration = int(conference['duration'])
     
-    current_panel_path = '/Users/amorgan/Desktop/ExpandableMenuTest/{}/panels.txt'.format(current_conference_id)
+    current_panel_path = '{}/panels.txt'.format(current_conference_id)
     current_panel_df = pd.DataFrame.from_csv(current_panel_path, header=0, \
                             sep=';', index_col = None, parse_dates = False)
     current_panel_df['conference_id'] = current_conference_id
@@ -104,8 +104,8 @@ for confindex, conference in conference_df.iterrows():
     speakerdescripts = []
     speakerimgpaths = []
     speakerbios = []
-    speakerpath = '/Users/amorgan/Desktop/ExpandableMenuTest/expandableList/speakers/'
-    speaker_img_path = "http://blog.beyondacademia.org/" + 'img/'
+    speakerpath = 'wordpress_testing/speakers/'
+    speaker_img_path = "http://www.beyondacademia.org/" + 'img/'
     speakerfiles = glob.glob(speakerpath + '*.txt')
     for speaker in speakerfiles:
         f = open(speaker)
@@ -137,7 +137,7 @@ for confindex, conference in conference_df.iterrows():
             </script>
         </head>
         <body>
-            <h1><b>Demo ExpandableList</b></h1>
+            <h1><b>Speakers</b></h1>
             Our panels and speakers for the 2014 Berkeley Conference are listed below. Click on panel names to see the panelists, and click on panelists to see their biographies. 
         
             <div id="listContainer">
@@ -213,7 +213,7 @@ for confindex, conference in conference_df.iterrows():
         </body>
     </html>'''
 
-    f = file('panels.html','w')
+    f = file('wordpress_testing/panels.html','w')
     f.write(html_block)
     f.close()
 
@@ -241,7 +241,7 @@ for confindex, conference in conference_df.iterrows():
     # loop through each day in the conference
     for day in numpy.arange(duration):
         
-        day_sched_path = '/Users/amorgan/Desktop/ExpandableMenuTest/{}/sched_{}.txt'.format(current_conference_id,str(int(day+1)))
+        day_sched_path = '{}/sched_{}.txt'.format(current_conference_id,str(int(day+1)))
         day_sched = pd.DataFrame.from_csv(day_sched_path, header=0, \
                                 sep=';', index_col = 0, parse_dates = False)
         
@@ -306,13 +306,13 @@ for confindex, conference in conference_df.iterrows():
         </body>
     </html>'''
 
-    f = file('schedule.html','w')
+    f = file('wordpress_testing/schedule.html','w')
     f.write(html_block2)
     f.close()
 
 
 #### MEDIA PAGE ####
-media_path = '/Users/amorgan/Desktop/ExpandableMenuTest/media.txt'
+media_path = 'media.txt'
 media_df = pd.DataFrame.from_csv(media_path,header=0, \
                         sep=';', index_col = None, parse_dates = ['media_date'])
 media_sorted = media_df.sort('media_date',ascending=False)
@@ -325,7 +325,7 @@ html_media = '''
         <link rel="stylesheet" href="css/scheduletable.css" type="text/css" media="screen, projection">
     </head>
     <body>
-    <table class=tg-table-paper style="width:100%;text-align:left>
+    <table class=tg-table-paper style="width:100%;text-align:left">
     '''
 count = 1
 for index, row in media_sorted.iterrows():
@@ -349,6 +349,6 @@ html_media += '''
     </body>
 </html>'''
 
-f = file('media.html','w')
+f = file('wordpress_testing/media.html','w')
 f.write(html_media)
 f.close()
