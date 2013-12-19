@@ -241,8 +241,8 @@ for confindex, conference in conference_df.iterrows():
     # loop through each day in the conference
     for day in numpy.arange(duration):
         
-        day_sched_path = '{}/sched_{}.txt'.format(current_conference_id,str(int(day+1)))
-        day_sched = pd.DataFrame.from_csv(day_sched_path, header=0, \
+        sched_df_path = '{}/sched_{}.txt'.format(current_conference_id,str(int(day+1)))
+        sched_df = pd.DataFrame.from_csv(sched_df_path, header=0, \
                                 sep=';', index_col = 0, parse_dates = False)
         
         
@@ -255,7 +255,7 @@ for confindex, conference in conference_df.iterrows():
         count = 1
         max_colspan = 1 # keeping track of the total number of columns
         
-        for time, event in day_sched.iterrows():
+        for time, event in sched_df.iterrows():
             
             if count%2==0:
                 evenclass = ' class="tg-even"'
