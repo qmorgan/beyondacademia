@@ -152,7 +152,9 @@ for confindex, conference in conference_df.iterrows():
     current_panels = current_panel_df[current_panel_df['conference_id'] == current_conference_id]
 
     # Loop through all the sessions
+    # first grab the list of all the sessions
     sorted_panel_list = list(set(current_panels['panel_session']))
+    # sort them by day1a day1b day2a day2b etc. 
     sorted_panel_list.sort()
     for session in sorted_panel_list:
         # Add the header for this session
@@ -160,13 +162,18 @@ for confindex, conference in conference_df.iterrows():
         # day1a => Thursday February 20 - Morning Session
         
         ampm = ''
-        day_offset = datetime.timedelta(int(session[-2]) - 1)
-        if session[-1] == 'a': ampm = "Morning"
-        if session[-1] == 'b': ampm = "Afternoon"
-        str_date = (start_date + day_offset).strftime('%A, %B %d')
-        session_text = str_date + ' - ' + ampm + ' Session'
+        str_date = ''
+        if 'day' in session:
+            day_offset = datetime.timedelta(int(session[-2]) - 1)
+            if session[-1] == 'a': ampm = "Morning"
+            if session[-1] == 'b': ampm = "Afternoon"
+            str_date = (start_date + day_offset).strftime('%A, %B %d')
+            session_text = str_date + ' - ' + ampm + ' Session'
+        else:
+            session_text = session[1:]
         
         html_block += '''
+        <hr>
             <li style="font-weight:bold;text-align:center">
             {}
             </li>'''.format(session_text)
@@ -184,18 +191,20 @@ for confindex, conference in conference_df.iterrows():
                 '''.format(row['panel_name'],row['panel_name'], current_descrip)
             # loop through the speakers    
             for speaker in row['panel_speakers'].split(','):
+                # can deal with e.g. "thursday: Bob Hope"
+                curr_speaker = speaker.split(':')[-1].strip()
                 html_block += '''
                     <li>
                     <strong>{}</strong> '''.format(speaker.strip())
                     # if we have a database entry for the speaker, grab its info
-                if speaker.strip() in speaker_df.index:
-                    speaker_info = speaker_df.loc[speaker.strip()]
+                if curr_speaker in speaker_df.index:
+                    speaker_info = speaker_df.loc[curr_speaker]
                     html_block += ''' - <span style="font-size:90%;font-weight:bold;">{}</span>
                     <ul>
                         <li>
                             <span><img src="{}" style="float:left;height:100px;" alt="{}" ><noclick>{}</noclick></span>
                         </li>
-                    </ul>'''.format(speaker_info['speaker_shortbio'], speaker_img_path + speaker_info['speaker_img'], speaker.strip(), speaker_info['speaker_bio'])
+                    </ul>'''.format(speaker_info['speaker_shortbio'], speaker_img_path + speaker_info['speaker_img'], curr_speaker, speaker_info['speaker_bio'])
                 html_block += '''
                     </li>'''
             html_block += '''
@@ -203,7 +212,7 @@ for confindex, conference in conference_df.iterrows():
                 </li>
             '''    
         html_block += '''
-        <hr>'''
+        '''
 
 
 
