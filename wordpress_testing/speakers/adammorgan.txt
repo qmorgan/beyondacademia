@@ -1,0 +1,4 @@
+Adam N. Morgan
+Astrophysics PhD Student
+adammorgan.jpg
+Adam is in his final year of a PhD in astrophysics, focusing on research of gamma-ray bursts (GRBs), the most powerful explosions in the universe. His studies have led him to have an interest in the broader field of data science, and how the techniques being developed for rapid, real-time analysis of large astronomical data sets can be applied to different fields. Adam is also very passionate about public outreach and education, and is active in outreach efforts ranging from local classrooms to the halls of Congress.

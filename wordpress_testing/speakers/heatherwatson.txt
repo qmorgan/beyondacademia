@@ -1,0 +1,8 @@
+Heather Watson
+Biostatistician at Exponent
+heatherwatson.jpg
+Dr. Watson specializes in biostatistics and has extensive experience in the statistical analysis of hospital discharge databases, medical claims databases, and accident databases. She also has experience in spatial analysis, sampling methods, experimental design, data mining, and risk analysis.
+
+Dr. Watson has collaborated with biomechanical engineers to investigate injury patterns of pedestrians in motor vehicle accidents using the National Automotive Sampling System; she has worked with scientists in health on epidemiologic studies examining the incidence and treatment of glaucoma patients, studying revision rates after insertion of cardiovascular stents, or looking at treatment patterns by cancer type from electronic medical records. In addition, she has teamed with engineers to inspect failure trends of identification cards issued. She has experience using Medicare claim records, claims databases, NASS CDS, NASS GES, NFIRS, NEISS and other hospital discharge datasets, such as NIS, NHAMCS and NAMCS.
+
+Before joining Exponent, Dr. Watson attended New York University and served as a graduate assistant in the Division of Biostatistics at New York University, School of Medicine. Her background is in biology and mathematics. Her thesis research includes the application of statistical methods to local clustering of disease, focused clustering of disease near a putative hazard, and disease mapping utilizing Bayesian hierarchical modeling.
