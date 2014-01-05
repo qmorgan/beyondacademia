@@ -2,6 +2,7 @@ import pandas as pd
 import glob
 import datetime
 import numpy
+import os,sys
 
 # CONFERENCE TABLE
 #   conference_id   conference_date     conference duration conference_location
@@ -160,7 +161,6 @@ for confindex, conference in conference_df.iterrows():
         # Add the header for this session
         # rename session based on conference date
         # day1a => Thursday February 20 - Morning Session
-        
         ampm = ''
         str_date = ''
         if 'day' in session:
@@ -212,6 +212,7 @@ for confindex, conference in conference_df.iterrows():
                 </li>
             '''    
         html_block += '''
+        <hr>
         '''
 
 
@@ -233,8 +234,17 @@ for confindex, conference in conference_df.iterrows():
 
 
     # aa.strftime('%A %B %d')
-
-
+    # check to see if there are schedule files
+    scheds_paths = '{}/sched*.txt'.format(current_conference_id)
+    schedfilelist = glob.glob(scheds_paths)
+    # continue if there are no schedule files; don't make any html for this conference
+    if duration != len(schedfilelist):
+        print "WARNING. Duration is set as {} in {}, but {} files are found in the path {}".format(duration,conference_path,len(schedfilelist),scheds_paths)
+    
+    if not schedfilelist:
+        print "Warning: No schedule files exist for conference_id '{}'".format(current_conference_id)
+        print "Not making a schedule page for this conference."
+        continue
     html_block2 = '''
     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
@@ -251,6 +261,9 @@ for confindex, conference in conference_df.iterrows():
     for day in numpy.arange(duration):
         
         sched_df_path = '{}/sched_{}.txt'.format(current_conference_id,str(int(day+1)))
+        if not os.path.exists(sched_df_path):
+            print "{} does not exist; not making schedule for this day.".format(sched_df_path)
+            continue
         sched_df = pd.DataFrame.from_csv(sched_df_path, header=0, \
                                 sep=';', index_col = 0, parse_dates = False)
         
