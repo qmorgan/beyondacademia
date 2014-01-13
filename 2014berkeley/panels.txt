@@ -1,13 +1,14 @@
 panel_name;panel_session;panel_speakers
-Science and Social Policy;day1a;Dena Vallano, Ben Rubin
-Non-Academic Research (Psych/Neuro);day1a;Joe Hardy, Glen Morgan, Ingrid Nieuwenhuis 
+Keynote Speakers;a;Thursday: Peter Fiske,Friday: Ellen Levy
+Science and Social Policy;day1a;Dena Vallano, Ben Rubin, Beau Kilmer
+Non-Academic Research (Psych/Neuro);day1a;Joe Hardy, Glen Morgan, Ingrid Nieuwenhuis, Justin Elstrott
 Non-Academic Research (Biotech);day1a;Patty Culp, Jacob Corn, Brian Simison, Teresa Miller
 Communication;day1b;Sandra Aamodt, Peter Binfield, Katja Brose, Julie Yu
 Careers in Education;day1b;Ron Kim, Cynthia D’Angelo, Joseph Williams, Kate Garrett
-Scientific Consulting;day1b;Craig Brozinsky, Albert Lang, Anna Urban
+Scientific Consulting;day1b;Craig Brozinsky, Albert Lang, Anna Urban,Heather Watson
 Startups;day2a;Ken Greenberg, Andro Hsu, Melissa Fardy
 Senior Science Management;day2a;Kaaren Hanson, Adam Gazzaley, Alvaro Garcia Neto, Charles Jankowski
 Technology Industry;day2a;Maria Stone, Ellen Konar, Elizabeth Seiver
 Entrepreneurs;day2b;Ethan Perlstein, John Waldeisen, Bret Waters, Erica Warp
-Management Consulting;day2b;Nick Halpern-Manners, Kristin Talsky
+Management Consulting;day2b;Nick Halpern-Manners, Kristin Talsky, Els van der Helm
 Data Analytics;day2b;Jake Klamka, Jacob Bollinger, Jessica Kirkpatrick, Berian James, Rehan Khan

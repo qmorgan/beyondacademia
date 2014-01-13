@@ -1,7 +1,11 @@
 time;event
-9:00 AM;Keynote: Peter Fiske
-10:00 AM;panel_a
-11:30 AM;Networking Lunch
+9:00 AM; Welcome
+9:05 AM;Keynote: Peter Fiske
+9:30 AM;Coffee
+9:45 AM;panel_a
+11:00 AM;Workshop 1
+12:00 PM;Networking Lunch
 1:30 PM;panel_b
-3:00 PM;Workshops
+2:45 PM;Coffee
+3:00 PM;Workshop 2
 4:00 PM;Networking Reception
