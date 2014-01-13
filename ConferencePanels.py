@@ -212,7 +212,6 @@ for confindex, conference in conference_df.iterrows():
                 </li>
             '''    
         html_block += '''
-        <hr>
         '''
 
 
