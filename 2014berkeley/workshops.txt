@@ -1,13 +1,12 @@
 workshop_name;workshop_session;workshop_speakers
-Untitled;day1b;Celia Sepulveda
-Untitled;day2b;Celia Sepulveda
-Untitled;day1a;William Gunn
-Getting the Most out of the Beyond Academia Conference: Networking, Informational Interviews, and more;day1b;Andrew Green
-A case study in product development;day1a;Keith Alexander
-A case study in product development;day2a;Keith Alexander
-The enjoyment of employment: what kinds of organizations are compatible with your work style;day1a;Doug Kalish
-The enjoyment of employment: what kinds of organizations are compatible with your work style;day2a;Doug Kalish
-Getting the Most out of the Beyond Academia Conference: Networking, Informational Interviews, and more;day2a;Andrew Green
-Going Live: How to Prepare for Interviews and Presentations in the Business, Government, and Nonprofit Worlds;day2b;Andrew Green
-The job search process: from start to finish;day1b;Elizabeth Seiver 
-The job search process: from start to finish;day2b;Elizabeth Seiver
+The enjoyment of employment;day1a;<!--enjoymentofemployment-->Workshop Description,Doug Kalish
+The enjoyment of employment;day2a;<!--enjoymentofemployment-->Workshop Description,Doug Kalish
+Branding your brain;day1b;<!--brandingyourbrain-->Workshop Description,Celia Sepulveda
+Branding your brain;day2b;<!--brandingyourbrain-->Workshop Description,Celia Sepulveda
+Communicating your research, in academia and beyond;day1a;<!--communicatingyourresearch-->Workshop Description,William Gunn
+Getting the Most out of the Beyond Academia Conference;day1b;<!--gettingmostoutofba-->Workshop Description,Andrew Green
+A real life case study (Focus on technology);day1a;<!--areallifecasestudy-->Workshop Description,Keith Alexander
+A real life case study (Focus on management);day2a;<!--areallifecasestudy2-->Workshop Description,Keith Alexander
+Getting the Most out of the Beyond Academia Conference;day2a;<!--gettingmostoutofba-->Workshop Description,Andrew Green
+Going Live;day2b;<!--goinglive-->Workshop Description,Andrew Green
+The job hunt process;day2b;<!--jobhunt-->Workshop Description,Elizabeth Seiver
