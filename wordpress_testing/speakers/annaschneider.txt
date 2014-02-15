@@ -1,0 +1,4 @@
+Anna Schneider
+Co-founder and CTO at WattTime
+annaschneider.jpg
+Anna is the CTO and co-founder of WattTime, a cleanweb social venture that connects people and smart devices to cleaner electricity. She received a PhD in Biophysics in 2013 from UC Berkeley, and BS degrees in Mathematics and Biochemistry with Honors from the University of Washington in 2007. Anna is passionate about addressing climate change by using data, software, and computational research to increase the effectiveness of renewable energy resources. Before leading software development at WattTime, her work ranged from analyzing weather at wind farm sites to simulating the organization of photosynthesis proteins. She is also a science communicator and worked with the Berkeley Science Review for 2.5 years.
