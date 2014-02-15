@@ -1,0 +1,7 @@
+workshop_name;workshop_description
+Untitled; Workshop description goes here
+Getting the Most out of the Beyond Academia Conference: Networking, Informational Interviews, and more; Workshop description goes here
+A case study in product development; Workshop description goes here
+The enjoyment of employment: what kinds of organizations are compatible with your work style; Workshop description goes here
+Going Live: How to Prepare for Interviews and Presentations in the Business, Government, and Nonprofit Worlds; Workshop description goes here
+The job search process: from start to finish; Workshop description goes here
