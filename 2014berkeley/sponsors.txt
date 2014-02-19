@@ -18,3 +18,5 @@ bayer;2500;
 dreamingtree;0;
 bluediamond;0;
 lagunitas;0;
+jrosephoto;0;
+awangphoto;0;

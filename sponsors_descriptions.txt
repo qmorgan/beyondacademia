@@ -1,0 +1,22 @@
+sponsor_id;sponsor_name;sponsor_website;sponsor_logo
+helenwills;Helen Wills Neuroscience Institute;http://neuroscience.berkeley.edu/;helenwills.png
+mcb;UC Berkeley Department of Molecular & Cell Biology (MCB);http://mcb.berkeley.edu/;mcb.png
+qb3;California Institute for Quantitative Biosciences - Berkeley;http://qb3.berkeley.edu/;qb3.png
+vcr;UC Berkeley Vice Chancellor for Research;http://vcresearch.berkeley.edu/;vcr.png
+mcbtg;MCB Training Grants;http://mcb.berkeley.edu/grad/graduate-support/training-grants/;
+icbs;The Institute of Cognitive and Brain Sciences - Berkeley;http://icbs.berkeley.edu/;icbs.png
+vspa;Visiting Scholar and Postdoc Affairs (VSPA);http://vspa.berkeley.edu/;vspa.jpg
+sof;Berkeley Student Opportunity Fund;https://students.berkeley.edu/myberkeley/misc/opfund.asp;sof.png
+vision;UC Berkeley Vision Science;http://vision.berkeley.edu/;vision.png
+pmb;UC Berkeley Department of Plant and Microbial Biology;http://pmb.berkeley.edu/;pmb.png
+linguistics;UC Berkeley Linguistics Department;http://linguistics.berkeley.edu/;linguistics.png
+bioengineering;UC Berkeley Department of Bioengineering;http://bioeng.berkeley.edu/;bioengineering.png
+dlab;D-Lab;http://dlab.berkeley.edu/;dlab.jpeg
+psych;UC Berkeley Department of Psychology;http://psychology.berkeley.edu/;psych.jpg
+coldspring;Cold Spring Harbor Laboratory;http://www.cshl.edu;cshl.png
+bayer;Bayer;http://www.bayer.com/;bayer.gif
+dreamingtree;The Dreaming Tree;http://www.dreamingtreewines.com/;dreamingtree.jpg
+lagunitas;Lagunitas Brewing Company;http://lagunitas.com/;lagunitas.jpg
+bluediamond;Blue Diamond Almonds;https://www.bluediamond.com/;bluediamond.png
+awangphoto;Amanda Wang Photography;amandawang@berkeley.edu;awangphoto.png
+jrosephoto;Jahlela Rose Photography;mailto:jahlela.photography@gmail.com;jrosephoto.png

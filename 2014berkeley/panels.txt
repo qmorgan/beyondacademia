@@ -4,7 +4,7 @@ Science and Social Policy;day1a;mBryan Alvarez, Dena Vallano, Ben Rubin, Beau Ki
 Non-Academic Research (Psych/Neuro);day1a;mJane Hu, Joe Hardy, Glen Morgan, Ingrid Nieuwenhuis, Justin Elstrott
 Non-Academic Research (Biotech);day1a;mChris Tsang, Patty Culp, Jacob Corn, Brian Simison, Teresa Miller
 Communication;day1b;mKishore Hari, Sandra Aamodt, Peter Binfield, Katja Brose, Julie Yu, Eva Amsen
-Careers in Education;day1b;mJodi Davenport, Ron Kim, Cynthia D’Angelo, Kate Garrett
+Careers in Education;day1b;mJodi Davenport, Ron Kim, Cynthia D’Angelo, Kate Garrett, Jason Brooks
 Scientific Consulting;day1b;mClaire Oldfield, Craig Brozinsky, Albert Lang, Anna Urban,Heather Watson
 Startups;day2a;mSahar Yousef,Ken Greenberg,Andro Hsu, Melissa Fardy,Erica Warp
 Senior Science Management;day2a;mMargaux Bennet, Adam Gazzaley, Alvaro Garcia Neto, Charles Jankowski,Michelle Chernock
