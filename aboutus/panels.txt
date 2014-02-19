@@ -1,3 +1,3 @@
 panel_name;panel_session;panel_speakers
-Planning Team;x;Sahar Yousef,Mariana Garcia,Chris Holdgraf,Alison Miller Singley,Anthony Fu,Adam N. Morgan,Arne Bakker,Claire Oldfield,Nicole Abreu,Jane Hu,William Griscom
+Planning Team;x;Sahar Yousef,Mariana Garcia,Nicole Abreu,Arne Bakker,Anthony Fu,Chris Holdgraf,Jane Hu,Alison Miller Singley,Adam N. Morgan,Robert Nelson,Claire Oldfield
 Advisory Board;x;Els van der Helm,Bryan Alvarez,Ian Cameron,Maria Stone,Keaton Swett,Bradley Voytek,Jake Klamka,Katja Brose
