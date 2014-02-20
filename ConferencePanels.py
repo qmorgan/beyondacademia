@@ -161,7 +161,6 @@ for confindex, conference in conference_df.iterrows():
 
     # Get all the panels at the conference of interest
     current_panels = current_panel_df[current_panel_df['conference_id'] == current_conference_id]
-
     # Loop through all the sessions
     # first grab the list of all the sessions
     sorted_panel_list = list(set(current_panels['panel_session']))
@@ -596,7 +595,39 @@ for confindex, conference in conference_df.iterrows():
                 <tr{}>'''.format(evenclass)
                 for panel in matched_panels['panel_name']:
                     html_block2 += '''
-                    <td><a href="index.php?page_id={}#{}">{}</a></td>'''.format(speaker_link_page_id,panel,panel)
+                    <td><a href="conference/speakers/#{}">{}</a></td>'''.format(panel,panel)
+                html_block2 += '''
+                </tr>
+                '''
+            # do a special row if its a workshop choice
+            elif event.values[0][0:5] == 'works':
+                workshop_header_text = ''
+                if event.values[0][-1] == 'a':
+                    workshop_header_text = "AM Workshop (Choose one)"
+                if event.values[0][-1] == 'b':
+                    workshop_header_text = "PM Workshop (Choose one)"
+                
+                # "day1a" format
+                session = 'day' + str(day+1) + event.values[0][-1]
+                
+                # grab the workshops that match the day and session
+                matched_workshops = current_workshops[current_workshops['workshop_session'] == session]
+                
+                colspan = len(matched_workshops)
+                if colspan > max_colspan:
+                    max_colspan = colspan
+                
+                html_block2 += '''
+                <tr{}>
+                  <td rowspan="2" class="width-fixed">{}</td>
+                  <td colspan="{}" class="mini-header">{}</td>
+                </tr>
+                '''.format(evenclass,time,colspan,workshop_header_text)
+                html_block2 += '''
+                <tr{}>'''.format(evenclass)
+                for workshop in matched_workshops['workshop_name']:
+                    html_block2 += '''
+                    <td><a href="conference/workshops/#{}">{}</a></td>'''.format(workshop,workshop)
                 html_block2 += '''
                 </tr>
                 '''
@@ -616,7 +647,7 @@ for confindex, conference in conference_df.iterrows():
         </body>
     </html>'''
     
-    # replace the unknown colspan with the actual max colspan based on number of panels
+    # replace the unknown colspan with the actual max colspan based on number of workshops
     html_block2=html_block2.replace('<td colspan="UNKNOWN"','<td colspan="{}"'.format(max_colspan))
     f = file(current_conference_id+'/schedule.html','w')
     f.write(html_block2)
