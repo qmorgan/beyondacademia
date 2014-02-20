@@ -10,5 +10,5 @@ Startups;day2a;mSahar Yousef,Ken Greenberg,Andro Hsu, Melissa Fardy,Erica Warp
 Senior Science Management;day2a;mMargaux Bennet, Adam Gazzaley, Alvaro Garcia Neto, Charles Jankowski,Michelle Chernock
 Technology Industry;day2a;mAnna Goldstein, Maria Stone, Ellen Konar, Elizabeth Seiver
 Entrepreneurs;day2b;mAnna Schneider,Ethan Perlstein, John Waldeisen, Bret Waters,Chris Haskell,Sudip Chakrabarti
-Management Consulting;day2b;mEls van der Helm,Erik Smith,Rachel Zeldin,Lana Lau,Tom Baker
+Management Consulting;day2b;mEls van der Helm,Erik Smith,Rachel Zeldin,Lana Lau,Tom Baker,Jesse Noffsinger
 Data Analytics;day2b;mJake Klamka, Jacob Bollinger, Jessica Kirkpatrick, Berian James, Rehan Khan
